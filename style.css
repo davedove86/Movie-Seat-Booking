@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 
-:root {
-  --success-color: #2ecc71;
-  --error-color: #e74c3c;
-}
-
 * {
   box-sizing: border-box;
 }
@@ -26,7 +21,8 @@ body {
 }
 
 .movie-container select {
-  background-color: #fff;
+  background-color: #242333;
+  color: #fff;
   border: 0;
   border-radius: 5px;
   font-size: 14px;
@@ -35,6 +31,7 @@ body {
   -moz-appearance: none;
   -webkit-appearance: none;
   appearance: none;
+  cursor: pointer;
 }
 
 .container {
